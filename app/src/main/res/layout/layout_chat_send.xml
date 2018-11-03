@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/view_send"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+
+        >
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/view_send"
+        >
+
+        <TextView
+
+            style="@style/MySmallTextView"
+            android:layout_gravity="center"
+            android:text="fhjfj"
+            android:id="@+id/tv_msg_tym"
+            />
+
+
+        <TextView
+            style="@style/MyNormalTextView"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_10dp"
+            android:inputType="textMultiLine"
+            android:id="@+id/tv_msg_send"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:layout_marginRight="@dimen/_20dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

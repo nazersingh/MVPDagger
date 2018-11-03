@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/rel_chat"
+        android:layout_alignParentTop="true">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <RelativeLayout
+        android:id="@+id/rel_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_10dp">
+
+        <EditText
+
+            android:id="@+id/edt_chat_snd"
+            style="@style/MyEditText"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_snd_msg"
+            android:hint="@string/your_response"></EditText>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_snd_msg"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_send_black_24dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MVP Dagger</string>
+
+    <string name="facebook_app_id">161462621133210</string>
+    <string name="fb_login_protocol_scheme">fb161462621133210</string>
+
+    <string name="no_internet">Your mobile is not connected to the internet. Please connect to an active internet connection.</string>
+
+    <string name="hint_email_address">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_old_password">Old password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_forgot_password">Forgot Password?</string>
+
+    <string name="err_enter_email">Please enter email</string>
+    <string name="err_enter_mobile_number">Please enter mobile number</string>
+    <string name="err_check_mobile_number">Please check your mobile number</string>
+    <string name="err_enter_password">Please enter password</string>
+    <string name="err_password_must_alpha_numeric">Password must be characters including a number and special character</string>
+    <string name="err_password_length_more">Password must be atleast 6 characters including a number and special character</string>
+
+    <string name="err_enter_old_password">Enter old password</string>
+    <string name="err_enter_new_password">Enter new password</string>
+    <string name="err_msg_confirmpassword">Please enter confirm password</string>
+    <string name="err_msg_confirmpassword_not_match">New password and Confirm password should be same</string>
+    <string name="err_msg_signup_confirmpassword_not_match">Password and Confirm password must be same</string>
+    <string name="err_msg_password_same_old_new">Old password and Confirm password must not be same</string>
+    <string name="err_msg_space">Please remove spaces</string>
+    <string name="err_valid_email">Please enter valid email</string>
+    <string name="err_valid_mobile_number">Please enter valid mobile</string>
+    <string name="logout_mesg">Do You want to logout?</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="i_agree_to_the_terms">I agree to the Terms and Conditions and\nPrivacy Policy</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_the_registered_email">Enter the registered Email Address</string>
+    <string name="email">Email</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="post_code">Post Code</string>
+    <string name="personal_description">Personal Description</string>
+    <string name="verify">Verify</string>
+    <string name="verify_your_mobile">Verify Your Mobile</string>
+    <string name="please_verify_otp">Please verify the OTP sent to your Registered \n Mobile Number</string>
+    <string name="enter_4_digit_code">Enter 4 - digit code</string>
+    <string name="didnt_recieve_code">Did\'nt recieve the code?</string>
+    <string name="resend_code">Resend code</string>
+    <string name="your_response">your response</string>
+
+</resources>
